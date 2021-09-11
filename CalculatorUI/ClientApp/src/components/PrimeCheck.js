@@ -66,7 +66,7 @@ export class PrimeCheck extends Component {
 
     async getResult() {
 
-        var url = "https://localhost:44305/CalculatorAPI/checkprime?number=" + this.state.inputValue;
+        var url = "https://localhost:44352/CalculatorAPI/checkprime?number=" + this.state.inputValue;
         fetch(url)
             .then(response => response.json())
             .then(data => this.setState(

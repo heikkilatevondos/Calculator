@@ -67,7 +67,7 @@ export class SumValues extends Component {
 
     async getResult() {
 
-        var url = "https://localhost:44305/CalculatorAPI/sum?numbers=" + this.state.inputValues;
+        var url = "https://localhost:44352/CalculatorAPI/sum?numbers=" + this.state.inputValues;
         fetch(url)
             .then(response => response.json())
             .then(data => this.setState(
