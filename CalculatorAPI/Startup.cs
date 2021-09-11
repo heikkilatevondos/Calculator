@@ -36,7 +36,7 @@ namespace CalculatorAPI
                 options.AddDefaultPolicy(
                     builder =>
                     {
-                        builder.WithOrigins("https://localhost:44318");
+                        builder.WithOrigins("https://localhost:52385");
                     });
             });
 
